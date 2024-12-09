@@ -11,12 +11,15 @@
 body {
   color: white;
   width: 100dvw;
-  overflow-x: hidden;
+  overflow: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer 10+ */
   height: 100%;
   background: #000;
   border-color: #3b3b3b;
   user-select: none;
 }
+
 
 canvas {
   touch-action: none;
